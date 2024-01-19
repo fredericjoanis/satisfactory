@@ -1,7 +1,7 @@
 [cargo-new]
 name = "Your name"
 email = "name@something.com"
-vcs = "none"
+vcs = "git"
 
 [target.x86_64-pc-windows-msvc]
 rustflags = ["-C", "link-arg=-fuse-ld=lld"]

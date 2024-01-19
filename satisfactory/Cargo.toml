@@ -8,3 +8,5 @@ license.workspace = true
 workspace = true
 
 [dependencies]
+nalgebra.workspace = true
+petgraph.workspace = true

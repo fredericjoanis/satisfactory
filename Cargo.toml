@@ -14,6 +14,8 @@ license = "MIT OR Apache-2.0"
 # Internal workspace dependencies
 
 # External workspace dependencies
+petgraph = "0.6.4"
+nalgebra = "0.32.3"
 
 [workspace.lints.rust]
 unsafe_code = "deny"
@@ -66,7 +68,6 @@ expect_used = "warn"
 fallible_impl_from = "warn"
 float_cmp_const = "warn"
 format_push_string = "warn"
-indexing_slicing = "warn"
 large_include_file = "warn"
 large_stack_frames = "warn"
 let_underscore_untyped = "warn"

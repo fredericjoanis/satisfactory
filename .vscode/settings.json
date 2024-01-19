@@ -12,4 +12,5 @@
     "rust-analyzer.cargo.extraEnv": {
         "RUSTFLAGS": "-Clinker=rust-lld.exe"
     },
+    "rust-analyzer.rust.analyzerTargetDir": true
 }
